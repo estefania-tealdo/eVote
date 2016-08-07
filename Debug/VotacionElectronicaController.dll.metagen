@@ -1,0 +1,17 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly VotacionElectronicaController, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly VotacionElectronicaModel, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class VotacionElectronicaController.gestorUsuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[VotacionElectronicaModel.Trabajador] listaTrabajadores : Public
+  Methods:
+    ValidaUsuario(String, String): PrivateScope, Public, HideBySig
+    CargarUsuarios(): PrivateScope, Public, HideBySig
+    ObtenerIndiceLista(String): PrivateScope, Public, HideBySig

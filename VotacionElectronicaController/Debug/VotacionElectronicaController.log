@@ -1,0 +1,15 @@
+﻿Build started 5/8/2016 12:14:10 AM.
+     1>Project "C:\Users\Teffi\Documents\PUCP\2016-1\Lpoo\proyecto\VotacionElectronica\VotacionElectronicaController\VotacionElectronicaController.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Users\Teffi\Documents\PUCP\2016-1\Lpoo\proyecto\VotacionElectronica\Debug\VotacionElectronicaModel.dll" /analyze- /errorReport:prompt /clr:nostdlib gestorUsuario.cpp
+         gestorUsuario.cpp
+     1>gestorUsuario.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Teffi\Documents\PUCP\2016-1\Lpoo\proyecto\VotacionElectronica\Debug\VotacionElectronicaController.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Teffi\Documents\PUCP\2016-1\Lpoo\proyecto\VotacionElectronica\Debug\VotacionElectronicaController.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\gestorUsuario.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         VotacionElectronicaController.vcxproj -> C:\Users\Teffi\Documents\PUCP\2016-1\Lpoo\proyecto\VotacionElectronica\Debug\VotacionElectronicaController.dll
+     1>Done Building Project "C:\Users\Teffi\Documents\PUCP\2016-1\Lpoo\proyecto\VotacionElectronica\VotacionElectronicaController\VotacionElectronicaController.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.52

@@ -1,0 +1,31 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly VotacionElectronicaModel, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class VotacionElectronicaModel.Trabajador: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String idTrabajador : Public
+    System.String nombre : Public
+    System.String apellido : Public
+    System.String codigo : Public
+    System.String correo : Public
+    System.String contraseña : Public
+    System.String flagVoto : Public
+Class VotacionElectronicaModel.Periodo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class VotacionElectronicaModel.Cargo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, VotacionElectronicaModel.Periodo): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class VotacionElectronicaModel.Candidatura: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :VotacionElectronicaModel.Trabajador
+    Void .ctor(System.String, Int32, System.String, System.String, System.String, System.String, System.String, System.String, System.String, VotacionElectronicaModel.Cargo): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class VotacionElectronicaModel.Local: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class VotacionElectronicaModel.Mesa: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class VotacionElectronicaModel.Voto: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String, VotacionElectronicaModel.Mesa, VotacionElectronicaModel.Trabajador): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
