@@ -13,6 +13,7 @@ namespace VotacionElectronicaModel
 		String^ idCargo;
 		String^ nombreCargo;
 		Periodo^objPeriodo;
+		String^ Kei;
 
 	public:
 
